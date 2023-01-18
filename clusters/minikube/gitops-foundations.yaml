@@ -2,11 +2,11 @@
 apiVersion: source.toolkit.fluxcd.io/v1beta2
 kind: GitRepository
 metadata:
-  name: myapp
+  name: gitops-foundations
   namespace: flux-system
 spec:
   interval: 30s
   ref:
-    branch: master
-  url: https://github.com/nickvholbrook/myapp.git
+    branch: main
+  url: https://github.com/Kevin-Bowersox-Courses/gitops-foundations-env-2892009.git
 
