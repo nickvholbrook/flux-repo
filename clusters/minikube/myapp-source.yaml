@@ -8,4 +8,4 @@ spec:
   interval: 30s
   ref:
     branch: master
-  url: https://github.com/nickvholbrook/myapp.git
+  url: https://github.com/nickvholbrook/myapp.git 
